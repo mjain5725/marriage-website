@@ -97,7 +97,7 @@ const Events = () => {
                       name="task"
                       value={newEvent}
                       onChange={handleChange}
-                      style={{ width: '100%', height: '3rem', fontSize: '18px' }} 
+                      style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box' }} 
                       required
                   />
                 </div>

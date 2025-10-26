@@ -90,7 +90,7 @@ const AddNewTaskForm = ({id, setShowAddTaskForm, setTasks}) => {
                 name="task"
                 value={taskData.task}
                 onChange={handleChange}
-                style={{ width: '100%', height: '3rem', fontSize: '18px' }} 
+                style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box'}} 
                 required
             />
           </div>
@@ -107,7 +107,7 @@ const AddNewTaskForm = ({id, setShowAddTaskForm, setTasks}) => {
                 name="createdBy"
                 value={taskData.createdBy}
                 onChange={handleChange}
-                style={{ width: '100%', height: '3rem', fontSize: '18px' }}
+                style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box' }}
                 required
             />
             </div>
@@ -124,7 +124,7 @@ const AddNewTaskForm = ({id, setShowAddTaskForm, setTasks}) => {
                 name="createdFor"
                 value={taskData.createdFor}
                 onChange={handleChange}
-                style={{ width: '100%', height: '3rem', fontSize: '18px' }}
+                style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box' }}
                 required
             />
             </div>
@@ -140,7 +140,7 @@ const AddNewTaskForm = ({id, setShowAddTaskForm, setTasks}) => {
                 name="status"
                 value={taskData.status}
                 onChange={handleChange}
-                style={{ width: '100%', height: '3rem', fontSize: '18px' }}
+                style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box' }}
                 required
             >
                 {STATUS.map(status => (
@@ -161,7 +161,7 @@ const AddNewTaskForm = ({id, setShowAddTaskForm, setTasks}) => {
                 name="note"
                 value={taskData.note}
                 onChange={handleChange}
-                style={{ width: '100%', height: '3rem', fontSize: '18px' }}
+                style={{ width: '100%', height: '3rem', fontSize: '18px', boxSizing:'border-box' }}
                 required
             />
             </div>
