@@ -1,0 +1,23 @@
+    /* MyFlexContainer.css */
+    .task-container {
+        display: flex;
+        flex-direction: row;
+        /* Default: row direction */
+        justify-content: space-between;
+        /* Example alignment */
+        padding: 2%;
+        margin: 1%;
+        gap:5%;
+        /* border: 1px solid #ccc; */
+    }
+
+    @media (max-width: 760px) {
+        .task-container {
+            flex-direction: column;
+            gap: 5%;
+            margin: 5%;
+            /* Change to column direction on smaller screens */
+            /* align-items: center; */
+            /* Example alignment for column layout */
+        }
+    }
